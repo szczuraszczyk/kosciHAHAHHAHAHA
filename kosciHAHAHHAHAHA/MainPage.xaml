@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kosciHAHAHHAHAHA.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="0"
+            Spacing="25"
+            BackgroundColor="Beige">
+
+            <Label
+                Text="Gra w kości. Autor 69" 
+                BackgroundColor="brown"
+                TextColor="white"
+                FontSize="Title"
+                HorizontalOptions="FillAndExpand"/>
+
+            <Button
+                x:Name="rzucPrzycisk"
+                Text="RZUĆ KOŚĆMI"
+                Clicked="rzucamKoscmi"
+                HorizontalOptions="CenterAndExpand" 
+                BackgroundColor="Chocolate"/>
+
+            <HorizontalStackLayout
+                BackgroundColor="white"
+                HorizontalOptions="FillAndExpand"
+                Margin="9 0 9 0">
+
+            <Image
+                x:Name="kostkaJeden"
+                Source="question.jpg"
+                HeightRequest="60"
+                Margin="9"/>
+            <Image
+                x:Name="kostkaDwa"
+                Source="question.jpg"
+                HeightRequest="60"
+                Margin="9"/>
+            <Image
+                x:Name="kostkaTrzy"
+                Source="question.jpg"
+                HeightRequest="60"
+                Margin="9"/>
+            <Image
+                x:Name="kostkaCztery"
+                Source="question.jpg"
+                HeightRequest="60"
+                Margin="9"/>
+                <Image
+                x:Name="kostkaPiec"
+                Source="question.jpg"
+                HeightRequest="60"
+                Margin="9"/>
+
+            </HorizontalStackLayout>
+
+            <Label
+                x:Name="wynikLosTekst"
+                Text="Wynik tego losowania: "
+                HorizontalTextAlignment="Center"/>
+            <Label
+                x:Name="wynikGryTekst"
+                Text="Wynik gry: "
+                HorizontalTextAlignment="Center"/>
+
+            <Button
+                x:Name="resetujPrzycisk"
+                Text="RESETUJ WYNIK"
+                HorizontalOptions="CenterAndExpand"
+                BackgroundColor="Chocolate"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
