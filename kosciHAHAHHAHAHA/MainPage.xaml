@@ -14,7 +14,7 @@
                 BackgroundColor="brown"
                 TextColor="white"
                 FontSize="Title"
-                HorizontalOptions="FillAndExpand"/>
+                HorizontalOptions="Fill"/>
 
             <Button
                 x:Name="rzucPrzycisk"
@@ -25,7 +25,7 @@
 
             <HorizontalStackLayout
                 BackgroundColor="white"
-                HorizontalOptions="FillandExpand"
+                HorizontalOptions="Fill"
 				Padding="9">
 
             <Image
